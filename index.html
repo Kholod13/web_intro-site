@@ -29,6 +29,8 @@
             </tr>
             <tr>
                 <td width="30%" valign="top" >
+                    <center><canvas id="canvas" height="120" width="120"></canvas></center>
+                    <hr>
                     <font size="5" color="navy"><h2>Новини</h2></font>
                     <font size="5">
                         <ul>
@@ -104,5 +106,11 @@
             </tr>
         </table>
         <script src="app.js"></script>
+        <script>
+            window.onload = function(){
+            setInterval(clockPainting, 1000);
+        }
+        </script>
+        <script src="clock1.js"></script>
     </body>
 </html>
